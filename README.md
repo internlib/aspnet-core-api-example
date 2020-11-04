@@ -11,6 +11,12 @@ API with ASP.NET Core and MongoDB
 * C# for Visual Studio Code
 * MongoDB
 
+### MongoDB
+
+``` 
+docker run --name mongodb -p 27017:27017 mongo:latest
+```
+
 ## Packages
 
 ```
