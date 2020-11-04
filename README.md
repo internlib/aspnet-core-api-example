@@ -25,6 +25,13 @@ dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson --version 3.1.9
 dotnet add package MongoDB.Driver --version 2.11.3
 ```
 
+## Build
+
+```
+dotnet publish -c Release -o publish_output
+docker build -t <owner/name> .
+```
+
 ## Swagger
 
 ![swagger](https://i.imgur.com/uwcUnXC.png)
