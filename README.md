@@ -34,9 +34,12 @@ dotnet publish -c Release -o publish_output
 docker build -t <owner/name> .
 ```
 
-## Swagger
+## Swagger/Healthcheck
 
-![swagger](https://i.imgur.com/uwcUnXC.png)
+```
+http://localhost:4000/health
+http://localhost:4000/swagger
+```
 
 [Download .NET](https://dotnet.microsoft.com/download)
 
