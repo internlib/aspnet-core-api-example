@@ -42,6 +42,9 @@ namespace BooksApi
 
             services.AddControllers()
                 .AddNewtonsoftJson(options => options.UseMemberCasing());
+
+            services.AddHealthChecks()
+                .AddMongoDb(Configuration["BookstoreDatabaseSettings:ConnectionString"]);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +70,7 @@ namespace BooksApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHealthChecks("/health");
             });
         }
     }
