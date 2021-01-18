@@ -41,6 +41,14 @@ http://localhost:4000/health
 http://localhost:4000/swagger
 ```
 
+## HTTPie
+
+```
+http localhost:4000/api/books
+http POST localhost:4000/api/books < body.json
+
+```
+
 [Download .NET](https://dotnet.microsoft.com/download)
 
 [Reference](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code#test-the-web-api)
