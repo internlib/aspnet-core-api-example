@@ -1,6 +1,8 @@
 # aspnet-core-api-example
 API with ASP.NET Core and MongoDB
 
+> **dotnet-version:** 3.1
+
 [Reference](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code#test-the-web-api)
 
 
@@ -14,7 +16,7 @@ API with ASP.NET Core and MongoDB
 ### MongoDB
 
 ``` 
-docker run --name mongodb -p 27017:27017 mongo:latest
+docker run --name mongodb -p 27017:27017 -d mongo:latest
 ```
 
 ## Packages
