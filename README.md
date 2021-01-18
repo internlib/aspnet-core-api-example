@@ -3,15 +3,12 @@ API with ASP.NET Core and MongoDB
 
 > **dotnet-version:** 3.1
 
-[Reference](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code#test-the-web-api)
-
+> **mongodb-version:** 	4.4.3
 
 ## Prerequisites
 
 * .NET Core SDK 3.0 or later
-* Visual Studio Code
-* C# for Visual Studio Code
-* MongoDB
+* MongoDB 
 
 ### MongoDB
 
@@ -37,3 +34,6 @@ docker build -t <owner/name> .
 ## Swagger
 
 ![swagger](https://i.imgur.com/uwcUnXC.png)
+
+[Download .NET](https://dotnet.microsoft.com/download)
+[Reference](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code#test-the-web-api)
