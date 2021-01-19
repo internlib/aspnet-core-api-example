@@ -34,6 +34,12 @@ dotnet publish -c Release -o publish_output
 docker build -t <owner/name> .
 ```
 
+## docker-compose
+
+```
+docker-compose up -d 
+```
+
 ## Swagger/Healthcheck
 
 ```
