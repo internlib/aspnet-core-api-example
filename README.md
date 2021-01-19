@@ -1,7 +1,7 @@
 # aspnet-core-api-example
 API with ASP.NET Core and MongoDB
 
-> **dotnet-version:** 3.1
+> **dotnet-core-version:** 3.1
 
 > **mongodb-version:** 	4.4.3
 
@@ -37,8 +37,8 @@ docker build -t <owner/name> .
 ## Swagger/Healthcheck
 
 ```
-http://localhost:4000/health
 http://localhost:4000/swagger
+http://localhost:4000/health
 ```
 
 ## HTTPie
