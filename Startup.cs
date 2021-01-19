@@ -14,6 +14,7 @@ using BooksApi.Models;
 using BooksApi.Services;
 using BooksApi;
 using Microsoft.Extensions.Options;
+using Elastic.Apm.AspNetCore;
 
 namespace BooksApi
 {
@@ -66,6 +67,8 @@ namespace BooksApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseElasticApm(Configuration);
 
             app.UseEndpoints(endpoints =>
             {

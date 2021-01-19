@@ -24,7 +24,7 @@ dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson --version 3.1.9
 dotnet add package MongoDB.Driver --version 2.11.3
 dotnet add package Microsoft.AspNetCore.Diagnostics.HealthChecks --version 2.2.0
 dotnet add package AspNetCore.HealthChecks.MongoDb --version 5.0.1
-
+dotnet add package Elastic.Apm.AspNetCore --version 1.7.1
 ```
 
 ## Build
