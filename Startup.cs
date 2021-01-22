@@ -68,7 +68,7 @@ namespace BooksApi
 
             app.UseAuthorization();
 
-            app.UseElasticApm(Configuration);
+            // app.UseElasticApm(Configuration);
 
             app.UseEndpoints(endpoints =>
             {
