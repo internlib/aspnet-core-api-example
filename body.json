@@ -1,7 +1,7 @@
 {
     "id": "",
     "bookName": "bookTest",
-    "price": 0,
+    "price": 12,
     "category": "categoryTest",
     "author": "authorTest"
   }

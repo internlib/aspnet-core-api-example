@@ -27,6 +27,13 @@ dotnet add package AspNetCore.HealthChecks.MongoDb --version 5.0.1
 dotnet add package Elastic.Apm.AspNetCore --version 1.7.1
 ```
 
+## Run
+
+```
+dotnet restore
+dotnet run 
+```
+
 ## Build
 
 ```
@@ -50,11 +57,21 @@ http://localhost:4000/health
 ## HTTPie
 
 ```
-http localhost:4000/api/books
-http POST localhost:4000/api/books < body.json
-
+sudo apt install httpie
 ```
 
-[Download .NET](https://dotnet.microsoft.com/download)
+[httpie](https://httpie.io/)
+
+Tests:
+
+```
+http localhost:4000/api/books
+http localhost:4000/api/books/6028201e3c32ba205ca3620d
+http POST localhost:4000/api/books < body.json
+http PUT localhost:4000/api/books/6028201e3c32ba205ca3620d < body.json
+http DELETE localhost:4000/api/books/6028201e3c32ba205ca3620d
+```
+
+[Install Download .NET](https://dotnet.microsoft.com/download)
 
 [Reference](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code#test-the-web-api)
